@@ -1,0 +1,51 @@
+.weatherSearchArea{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.weatherSearchArea h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.formContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputField{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 18px;
+    color: gray;
+    font-weight: 300;
+    padding: 5px;
+    border-bottom: 2px solid orange;
+}
+
+.submitButtonActive{
+    width: 210px;
+    height: 35px;
+    border: none;
+    border-radius: 7px;
+    color: black;
+    background-color: orange;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.submitButtonDisabled{
+    width: 210px;
+    height: 35px;
+    border: none;
+    border-radius: 7px;
+    color: gray;
+    font-size: 18px;
+}

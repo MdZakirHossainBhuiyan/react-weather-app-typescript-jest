@@ -1,0 +1,70 @@
+.countryInfoArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.countryInfoArea h1 span{
+    color: orange;
+    text-transform: uppercase;
+}
+
+.infoContentCard{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    background-color: beige;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.countryFlag img{
+    width: 300px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.countryInfo{
+    padding: 10px 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+.weatherInfoArea{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.weatherInfoButton{
+    width: 210px;
+    height: 35px;
+    border: none;
+    border-radius: 7px;
+    color: black;
+    background-color: orange;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.capitalWeatherArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.capitalWeatherHeader{
+    width: 100%;
+    text-align: center;
+    background-color: blue;
+    margin-bottom: 10px;
+    color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
